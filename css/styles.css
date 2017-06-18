@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-image: url("../images/background.jpg ") ;
+}
+
+header{
+    position: relative;
+    background-color: #160703;
+    height: 70px;
+    opacity: 0.9;
+    color: snow;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 0 50px rgba(0,0,0,0.9); /* Параметры тени */
+}
+
+header nav {
+    margin-left: 15%;
+    display: inline;
+    position: absolute;
+    width: 51%;
+    height: 100%;
+
+}
+header nav a{
+    padding: 26px;
+    text-decoration: none;
+    color: snow;
+    float: left;
+    margin-right: 5%;
+    max-width: 70px;
+    display: block;
+    text-align: center;
+}
+header nav a:last-child{
+
+    margin-right: 0;
+
+}
+
+header nav a:hover{
+    border-bottom: 2px solid #0e90d2;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    background-color: #dddddd;
+    color: #333;
+    text-decoration: none;
+    transition: all .5s
+}
+
+header img{
+    float: left;
+    margin-left:2% ;
+}
+
+/*conteiner*/
+.container{
+    position: relative;
+    padding-bottom: -100px;
+}
+.container .content{
+    left:0;
+    top:0;
+    width: 80%;
+    border: 1px solid #222;
+    float: left;
+    box-sizing:border-box;
+}
+
+.container .sideBar-R{
+    box-sizing:border-box;
+    border: 1px solid #222;
+    width: 20%;
+    float: right;
+    border-left: none;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+/* Dictionary*/
+
+
+.content .gallery{
+    float: left;
+    margin: 10px 2%;
+    width: 210px;
+    padding: 25px 5px;
+
+}
+.gallery:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.9); /* Параметры тени */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gallery .comment-gallery{
+   width: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#333;
+    border-top: 1px solid #0e90d2;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9); /* Параметры тени */
+    height: 140px;
+    opacity: 0.9;
+}
+
+footer .footer-logo{
+    width: 300px;
+    margin-left: 50px;
+    height: 100px;
+    float: left;
+}
+.footer-logo img{
+    margin: 10px 0 0 100px;
+
+}
+footer .footer-logo p{
+    width: 300px;
+    text-align: center;
+}
+
+footer .footer-content{
+    float: right;
+    color: white;
+}
+
+footer .footer-content nav{
+    margin:10px 100px 0 0;
+}
+
+/******************/
+body {
+    background-color:#CCC;
+    font-family: Verdana;
+}
+.flex {position:relative;
+    width:850px;
+    min-height:300px;
+    margin:0 auto;
+    border:0 solid red;
+    margin-top:10px;
+}
+.flex a {background-color:white;
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:8px;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-position:center;
+    border:3px solid white;
+    cursor:pointer;
+    text-align:left;
+    text-shadow:1px 1px 20px #000;
+    color:white;
+    font-size:18px;
+    font-weight:bold;
+    text-indent:10px;
+    line-height:30px;
+    text-decoration:none;
+}
+[bg=a] {background-image:url(http://farm8.staticflickr.com/7013/6448917381_0b754e86fb_z.jpg);}
+[bg=b] {background-image:url(http://farm9.staticflickr.com/8156/7362866426_bf285ebd45.jpg);background-size:300px auto;}
+[bg=c] {background-image:url(http://farm6.staticflickr.com/5117/7410370290_0935419fc3.jpg);}
+[bg=d] {background-image:url(http://farm8.staticflickr.com/7262/7419245080_bb752ed1d6.jpg);}
+[bg=e] {background-image:url(http://farm8.staticflickr.com/7003/6468321069_3375be3073_z.jpg);background-size:auto 280px;}
+[bg=f] {background-image:url(http://farm8.staticflickr.com/7220/7342556872_46cddaf9b0.jpg);background-size:auto 280px;}
+[bg=g] {background-image:url(http://farm9.staticflickr.com/8021/7322604950_348c535903.jpg);background-size:auto 200px;}
+[bg=h] {background-image:url(http://farm8.staticflickr.com/7076/7286717012_6e6b450243.jpg);}
+[bg=i] {background-image:url(http://farm8.staticflickr.com/7129/7452167788_a3f6aa3104.jpg);background-size:auto 200px;}
+[bg=j] {background-image:url(http://farm8.staticflickr.com/7153/6480022425_a8d419e663_z.jpg);background-size:auto 280px;}
+[bg=k] {background-image:url(http://farm8.staticflickr.com/7225/7269592732_c4b7918626.jpg);background-size:auto 280px;}
+h1, h3 {width:850px;font-weight:normal;margin:0 auto;}
+h1 {margin-top:100px;}
+h3 {color:#666;margin-top:5px;}
+p {width:850px;margin:0;padding:0;margin:0 auto;font-size:14px;color:black;margin-top:0px;margin-bottom:20px;color:#989898;}
+#buttons {height:75px;width:850px;margin:0 auto;margin-top:10px;}
+#buttons a {float:left}
+.marginleft {margin-left:25px;}
