@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada362b7-1b10-4355-9057-21c17a587101" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/GitHubDesktopSetup.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/footer-logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/web-dictionary.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jquery.flex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/indexx.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -314,12 +302,12 @@
       <updated>1497637967563</updated>
       <workItem from="1497637969194" duration="4136000" />
       <workItem from="1497684525317" duration="8824000" />
-      <workItem from="1497765934209" duration="6328000" />
+      <workItem from="1497765934209" duration="6929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19288000" />
+    <option name="totallyTimeSpent" value="19889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
